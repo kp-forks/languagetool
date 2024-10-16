@@ -12460,6 +12460,7 @@ Franz Xaver Gruber
 Giuseppe Acerbi
 Joseph Lanner
 Sigismond Thalberg
+Sigismund Thalberg
 Franz Schubert
 Charles Auguste de Bériot
 Eugène Ysaÿe
@@ -26628,3 +26629,8 @@ F-Droid
 Isaac de Benserade
 Fernando Guillén
 Adolfo Marsillach
+Boyan Slat
+Àlex Ollé
+Air Europa
+Delcy Rodríguez
+Heiko Westermann

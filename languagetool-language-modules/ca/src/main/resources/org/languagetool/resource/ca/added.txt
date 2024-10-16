@@ -4,11 +4,15 @@
 # Format: fullform baseform postags (tab separated)
 ########## Dictionary fixes ##########
 ########## Additions ##########
+Aldama	Aldama	NPCNSP0
+Benfica	Benfica	NPMSO00
+Bonnie	Bonnie	NPCNSP0
 Buñuel	Buñuel	NPCNSP0
 CA	CA	NCFP000
 CA	CA	NCFS000
 CCAA	CA	NCFP000
 Cabanilles	Cabanilles	NPCNSP0
+Clyde	Clyde	NPCNSP0
 Concord	Concord	NPCSG00
 Cuisenaire	Cuisenaire	NPCNSP0
 F-Droid	F-Droid	NPCNO00
@@ -16,9 +20,11 @@ Finkielkraut	Finkielkraut	NPCNSP0
 Guirilàndia	Guirilàndia	NPFSG00
 Hezbol·là	Hezbol·là	NPMSO00
 Hizbol·là	Hizbol·là	NPMSO00
+Igualada	Igualada	NPMSO00
 Iona	Iona	NPFSG00
 Iona	Iona	NPFSSP0
 Kinder	Kinder	NPCNSP0
+McCloskey	McCloskey	NPCNSP0
 Nel·lo	Nel·lo	NPCNSP0
 Perejaume	Perejaume	NPMSSP0
 Pisídia	Pisídia	NPFSG00
@@ -55,6 +61,8 @@ espurneta	espurneta	NCFS000
 espurnetes	espurneta	NCFP000
 exsocialista	exsocialista	AQ0CS0
 exsocialistes	exsocialista	AQ0CP0
+fotodegradable	fotodegradable	AQ0CS0
+fotodegradables	fotodegradable	AQ0CP0
 fritfrit	fritfrit	NCMS000
 fritfrits	fritfrit	NCMP000
 madrilenyocèntric	madrilenyocèntric	AQ0MS0
@@ -202,3 +210,4 @@ tontos	tonto	AQ0MP0
 tontos	tonto	NCMP000
 ximple	ximple	NCCS000
 ximples	ximple	NCCP000
+Íñigo	Íñigo	NPMSSP0
