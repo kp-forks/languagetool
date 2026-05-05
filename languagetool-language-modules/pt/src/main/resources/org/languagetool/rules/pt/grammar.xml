@@ -14161,6 +14161,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
                         <token regexp='yes'>as?</token>
                     </marker>
                     <token postag_regexp='yes' postag='N.F.+'>
+                        <exception regexp='yes'>teses?</exception> <!-- quick workaround: "como ia a tese?" - MARCOAGPINTO - 2026-05-05 -->
                         <exception postag='D..F.+|R.+' postag_regexp='yes'/></token>
                 </pattern>
                 <message>Esta palavra rege-se com a preposição "a".</message>
