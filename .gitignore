@@ -34,3 +34,4 @@ languagetool-language-modules/nl/src/main/resources/org/languagetool/rules/nl/gr
 bin/
 
 .direnv/
+.envrc
