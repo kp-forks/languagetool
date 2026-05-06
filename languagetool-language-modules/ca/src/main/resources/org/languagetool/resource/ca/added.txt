@@ -1576,6 +1576,9 @@ rogeta	roget	AQ0FS0
 rogetes	roget	AQ0FP0
 rogets	roget	AQ0MP0
 ràndom	ràndom	AQ0CN0
+sanchisme	sanchisme	NCMS000
+sanchista	sanchista	AQ0CS0
+sanchistes	sanchista	AQ0CP0
 semimunt	semimuntar	VMIP1S0B
 semimunta	semimuntar	VMIP3S00
 semimunta	semimuntar	VMM02S00
