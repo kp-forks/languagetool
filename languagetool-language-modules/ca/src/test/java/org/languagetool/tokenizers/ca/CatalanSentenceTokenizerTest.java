@@ -120,6 +120,7 @@ public class CatalanSentenceTokenizerTest {
     testSplit("{Impren. Disss}");
     testSplit("{Impren. 188-disss}");
     testSplit("(Impren. Disss. Ioo)");
+    testSplit("(Impren. Disss. Ioo. A. B. Garcia)");
     testSplit("Impren. ", "\nDisss");
     testSplit("(Impren. ", "\nDisss)");
 
