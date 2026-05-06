@@ -1683,6 +1683,10 @@ speed	speed	NCMN000
 supercorrecta	supercorrecte	AQ0FS0
 supercorrecte	supercorrecte	AQ0MS0
 supercorrectes	supercorrecte	AQ0CP0
+supercreatiu	supercreatiu	AQ0MS0
+supercreatius	supercreatiu	AQ0MP0
+supercreativa	supercreatiu	AQ0FS0
+supercreatives	supercreatiu	AQ0FP0
 supervacacions	supervacacions	NCFP000
 sòcia	soci	AQ0FS0
 sòcies	soci	AQ0FP0
