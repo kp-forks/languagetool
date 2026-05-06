@@ -1109,7 +1109,19 @@
 <languagerule languagerulename="English">
 <!-- unknown abbreviations inside parentheses/brackets/braces -->
 <rule break="no">
-<beforebreak>\([^\)]*[\.:][\s\u00A0]</beforebreak>
+<beforebreak>\([^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
 <afterbreak>[^\)\r\n]*\)</afterbreak>
 </rule>
 <rule break="no">
@@ -1568,7 +1580,19 @@
 <languagerule languagerulename="Dutch">
 <!-- unknown abbreviations inside parentheses/brackets/braces -->
 <rule break="no">
-<beforebreak>\([^\)]*[\.:][\s\u00A0]</beforebreak>
+<beforebreak>\([^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
 <afterbreak>[^\)\r\n]*\)</afterbreak>
 </rule>
 <rule break="no">
@@ -4799,7 +4823,19 @@
 </rule>
 <!-- unknown abbreviations inside parentheses/brackets/braces -->
 <rule break="no">
-<beforebreak>\([^\)]*[\.:][\s\u00A0]</beforebreak>
+<beforebreak>\([^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
 <afterbreak>[^\)\r\n]*\)</afterbreak>
 </rule>
 <rule break="no">
@@ -4928,7 +4964,19 @@
 </rule>
 <!-- unknown abbreviations inside parentheses/brackets/braces -->
 <rule break="no">
-<beforebreak>\([^\)]*[\.:][\s\u00A0]</beforebreak>
+<beforebreak>\([^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
 <afterbreak>[^\)\r\n]*\)</afterbreak>
 </rule>
 <rule break="no">
@@ -5021,7 +5069,7 @@
 <afterbreak></afterbreak>
 </rule>
 <rule break="no">
-<beforebreak>\b([Ee]d(it)?|[Nn]o|n|[Nn]úm|[Pp]ág|p|c|\d+er)|[V\.]gr\.[\s\u00A0]</beforebreak>
+<beforebreak>\b([Ee]d(it)?|[Nn]o|n|[Nn]úm|[Pp]ág|p|c|\d+er).|[V\.]gr\.[\s\u00A0]</beforebreak>
 <afterbreak></afterbreak>
 </rule>
 <!-- Abbreviations that can finish sentences -->
@@ -5087,7 +5135,19 @@
 <languagerule languagerulename="German">
 <!-- unknown abbreviations inside parentheses/brackets/braces -->
 <rule break="no">
-<beforebreak>\([^\)]*[\.:][\s\u00A0]</beforebreak>
+<beforebreak>\([^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
 <afterbreak>[^\)\r\n]*\)</afterbreak>
 </rule>
 <rule break="no">
@@ -5540,7 +5600,19 @@
 <languagerule languagerulename="French">
 <!-- unknown abbreviations inside parentheses/brackets/braces -->
 <rule break="no">
-<beforebreak>\([^\)]*[\.:][\s\u00A0]</beforebreak>
+<beforebreak>\([^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
 <afterbreak>[^\)\r\n]*\)</afterbreak>
 </rule>
 <rule break="no">
@@ -6317,7 +6389,19 @@
 <languagerule languagerulename="Portuguese">
 <!-- unknown abbreviations inside parentheses/brackets/braces -->
 <rule break="no">
-<beforebreak>\([^\)]*[\.:][\s\u00A0]</beforebreak>
+<beforebreak>\([^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
+<afterbreak>[^\)\r\n]*\)</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\([^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0][^\)]*?[\.:][\s\u00A0]</beforebreak>
 <afterbreak>[^\)\r\n]*\)</afterbreak>
 </rule>
 <rule break="no">
