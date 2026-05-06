@@ -19161,11 +19161,12 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
                     <token postag='VMI[ISM].+' postag_regexp='yes'/>
                     <token>nada</token>
                 </marker>
-                <token min="0" max="1" postag='_PUNCT'/>
+                <token>do</token>
+                <!--<token min="0" max="1" postag='_PUNCT'/>
                 <or>
                     <token><exception postag='AQ.+|NC.+|PI.+|SPS00:PI.+|PP.C.+|SPS00:PP.C.+|D[ADIPR].+|V.+|RG|NP.+|SENT_END' postag_regexp='yes'/></token>
                     <token postag='CC|CS|SPS00' postag_regexp='yes'/>
-                </or>
+                </or>-->
             </pattern>
             <message>&simplify_msg;</message>
             <suggestion>\3 \2</suggestion>

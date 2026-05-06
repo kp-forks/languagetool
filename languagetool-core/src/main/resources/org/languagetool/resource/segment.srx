@@ -6305,7 +6305,7 @@
 <afterbreak></afterbreak>
 </rule>
 <rule break="no">
-<beforebreak>\b(ca|card|cat|caus|cf|cit|cód|comp|compar|conj|contr|coord|cop)\.\s?</beforebreak>
+<beforebreak>\b(ca|cap|card|cat|caus|cf|cit|cód|comp|compar|conj|contr|coord|cop)\.\s?</beforebreak>
 <afterbreak></afterbreak>
 </rule>
 <rule break="no">
@@ -6395,7 +6395,7 @@
 </rule>
 <!-- English abbreviations - but these work globally for all languages -->
 <rule break="no">
-<beforebreak>\b(Mr|Mrs|No|pp|St|Jr|Bros|etc|vs|esp|[Ff]ig|PhD|al|cf|Inc|Ms|Gen|Sen|Prof|Corp|Co|Ltd)\.\s?</beforebreak>
+<beforebreak>\b(Mr|Mrs|No|pp|St|Jr|Bros|vs|esp|[Ff]ig|PhD|al|cf|Inc|Ms|Gen|Sen|Prof|Corp|Co|Ltd)\.\s?</beforebreak>
 <afterbreak></afterbreak>
 </rule>
 <!-- Latin abbreviations - but these work globally for all languages -->
@@ -6488,6 +6488,11 @@
 <beforebreak>[^\s](\.\.\.|…)\s</beforebreak>
 <afterbreak>\p{Ll}</afterbreak>
 </rule>
+<!-- Not break for ellipses before ? or ! -->
+<rule break="no">
+<beforebreak>(…|\.\.\.)[\s ]</beforebreak>
+<afterbreak>[?!]</afterbreak>
+</rule>
 <!-- z.B. "bla (...) blubb" -> without ending sentence -->
 <rule break="no">
 <beforebreak>[\(\)\[\]]\s</beforebreak>
@@ -6523,10 +6528,11 @@
 <beforebreak>[\.!?][\u0002|'|"|“|«|\)|\]|\}¹²³]?\s+</beforebreak>
 <afterbreak></afterbreak>
 </rule>
+<!-- Do not split if the white space is missing
 <rule break="yes">
 <beforebreak>[\.!?…]['"”»\p{Pe}\u00BB\u201D]?\s*</beforebreak>
 <afterbreak>\p{Lu}[^\p{Lu}]</afterbreak>
-</rule>
+</rule>-->
 <rule break="yes">
 <beforebreak>\s\p{L}[\.!?…]\s</beforebreak>
 <afterbreak>\p{Lu}\p{Ll}*</afterbreak>
