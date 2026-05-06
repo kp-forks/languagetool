@@ -5618,6 +5618,10 @@
 <afterbreak>[^\p{P}]</afterbreak>
 </rule>
 <rule break="no">
+<beforebreak>(…|\.\.\.)[\s\u00A0]</beforebreak>
+<afterbreak>[?!]</afterbreak>
+</rule>
+<rule break="no">
 <beforebreak>\p{Lu}\p{L}+[\s\u00A0]v\.[\s\u00A0]</beforebreak>
 <afterbreak>\p{Lu}\p{L}+</afterbreak>
 </rule>
@@ -5767,10 +5771,11 @@
 <beforebreak>[\.!?…][\u0002|'|"|«|\)|\]|\}¹²³]?[\s\u00A0]+</beforebreak>
 <afterbreak></afterbreak>
 </rule>
+<!-- don't split if there is no whitespace after the punctuation
 <rule break="yes">
 <beforebreak>[\.!?…]['"\p{Pe}\u00BB\u201D]?</beforebreak>
 <afterbreak>\p{Lu}[^\p{Lu}]</afterbreak>
-</rule>
+</rule>-->
 <rule break="yes">
 <beforebreak>[\s\u00A0]\p{L}[\.!?…][\s\u00A0]</beforebreak>
 <afterbreak>\p{Lu}\p{Ll}</afterbreak>
