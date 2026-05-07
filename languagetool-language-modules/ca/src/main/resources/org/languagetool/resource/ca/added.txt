@@ -1675,6 +1675,8 @@ sintent	sintent	AQ0CS0
 sintents	sintent	AQ0CP0
 sintència	sintència	NCFS000
 sintències	sintència	NCFP000
+sismoresistent	sismoresistent	AQ0CS0
+sismoresistents	sismoresistent	AQ0CP0
 soci	soci	AQ0MS0
 sociofuncional	sociofuncional	AQ0CS0
 sociofuncionals	sociofuncional	AQ0CP0
