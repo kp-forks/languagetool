@@ -48,6 +48,8 @@ Henze	Henze	NPCNSP0
 Huysmans	Huysmans	NPCNSP0
 ICCROM	ICCROM	NPMSO00
 IECMA	IECMA	NPMSO00
+Iang-Tsé	Iang-Tsé	NPMSG00
+Iangtsé	Iangtsé	NPMSG00
 Ifigenia	Ifigenia	NPFSSP0
 Ifigenies	Ifigenia	NPFPSP0
 Kalman	Kalman	NPCNSP0
@@ -86,6 +88,7 @@ Sinera	Sinera	NPFSG00
 Sintrom	Sintrom	NPMSO00
 Sundiata	Sundiata	NPMSSP0
 Susanoo	Susanoo	NPMSSP0
+Taklamakan	Taklamakan	NPMSG00
 Umm-Kulthum	Umm-Kulthum	NPFSSP0
 Urriés	Urriés	NPCSG00
 VRAM	VRAM	NCFN000

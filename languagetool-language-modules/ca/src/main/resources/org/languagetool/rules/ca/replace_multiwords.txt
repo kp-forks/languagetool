@@ -946,3 +946,5 @@ a nivell pràctic=en la pràctica	En sentit figurat, val més evitar l'expressi�
 lo mateix=el mateix|la mateixa cosa|igual
 bon àrea=BonÀrea	Empresa alimentària.
 Joaquim Mallafré=Joaquim Mallafrè	Traductor i lingüista.
+a volaploma|a vola ploma=a rajaploma|tal com raja
+Yang-Tsé=Iangtsé|Iang-Tsé

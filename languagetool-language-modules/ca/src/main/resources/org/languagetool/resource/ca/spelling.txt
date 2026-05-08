@@ -44,6 +44,8 @@ Henze
 Huysmans
 ICCROM
 IECMA
+Iang-Tsé
+Iangtsé
 Ifigenia
 Ifigenies
 Kalman
@@ -81,6 +83,7 @@ Sinera
 Sintrom
 Sundiata
 Susanoo
+Taklamakan
 Umm-Kulthum
 Urriés
 VRAM

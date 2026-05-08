@@ -12751,7 +12751,7 @@ Copyright (C) 2012 Jaume Ortolà i Font
                     <marker>
                         <and>
                             <token postag="NC.*" postag_regexp="yes"/>
-                            <token postag="V.[SIN].*" postag_regexp="yes"><exception inflected="yes">prendre</exception></token>
+                            <token postag="V.[SIN].*" postag_regexp="yes"><exception inflected="yes">prendre</exception><exception>fou</exception></token>
                         </and>
                     </marker>
                 </unify>
