@@ -3803,6 +3803,30 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
         </rulegroup>
 
 
+        <rule id='COMUNICADO_DIRIGIDO_A' name="🤵 Comunicado dirigido a alguém" type='style' tone_tags='formal' default='temp_off'>
+            <!-- ChatGPT 5 and new disambiguator for 2026+ -->
+            <pattern>
+                <token skip='1' postag='V.+' postag_regexp='yes' regexp='yes' inflected='yes'>fazer|emitir|publicar|divulgar|redigir|apresentar|veicular|difundir|produzir|lançar|elaborar</token>
+                <token postag='NC[^C].+' postag_regexp='yes' regexp='yes' inflected='yes'>comunicado|declaração|pronunciamento|manifesto|nota|anúncio|publicação|memorando|notificação|ofício|editorial|comunicação|posicionamento</token>
+                <token min='0' max='2' regexp='yes' inflected='yes'>aberta|oficial|pública</token>
+                <marker>
+                    <token skip='1' regexp='yes'>a|às?|aos?</token>
+                </marker>
+                <token postag='N.+|AQ.+' postag_regexp='yes'/>
+            </pattern>
+            <message>Em registo formal, pode explicitar o destinatário com &quot;dirigido a&quot;.</message>
+            <suggestion><match no='2' postag='NC(..)000' postag_replace='AQ0$10'>dirigido</match> \4</suggestion>
+            <example correction="dirigido a">Vou elaborar um ofício <marker>a</marker> Ana.</example>
+            <example correction="dirigido a">Vou elaborar um ofício <marker>a</marker> estas pessoas.</example>
+            <example correction="dirigido a">Vou elaborar um ofício <marker>a</marker> mais pessoas.</example>
+            <example correction="dirigida à">Vou lançar uma nota oficial <marker>à</marker> comunidade.</example>
+            <example correction="dirigido ao">Vou fazer um comunicado oficial <marker>ao</marker> país.</example>
+            <example correction="dirigido aos">Vou fazer um comunicado <marker>aos</marker> utilizadores do software.</example>
+            <example correction="dirigido aos">Vou fazer um comunicado <marker>aos</marker> seus utilizadores.</example>
+            <example>Acabei de fazer uma declaração pública oficial dirigida ao país.</example>
+        </rule>
+
+
         <rule id='PASSAR_POR_DIFICULDADES' name="🤵 'Passar' [situação negativa] → 'passar por'/enfrentar" type='style' tone_tags='formal'>
             <!-- ChatGPT 5 and new disambiguator for 2026+ -->
             <pattern>
