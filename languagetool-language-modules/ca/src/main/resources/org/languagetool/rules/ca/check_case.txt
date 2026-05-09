@@ -2536,3 +2536,6 @@ salari brut
 salari brut anual
 director de programa
 directora de programa
+mosso d'esquadra
+mossa d'esquadra
+mosses d'esquadra

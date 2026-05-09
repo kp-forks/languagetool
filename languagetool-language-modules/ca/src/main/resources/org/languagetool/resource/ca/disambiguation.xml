@@ -3833,6 +3833,17 @@ Copyright (C) 2012 Jaume Ortolà i Font
         </pattern>
         <disambig action="filterall"/>
     </rule>
+    <rulegroup id="deixar_verb" name="deixar verb">
+        <rule>
+            <pattern>
+                <marker>
+                    <token postag="V.*" postag_regexp="yes" inflected="yes">deixar</token>
+                </marker>
+                <token postag="[NA].*|V.P.*" postag_regexp="yes"/>
+            </pattern>
+            <disambig action="filter" postag="V.*"/>
+        </rule>
+    </rulegroup>
     <rulegroup id="VAN_GOGH" name="van Gogh">
         <rule>
             <pattern>

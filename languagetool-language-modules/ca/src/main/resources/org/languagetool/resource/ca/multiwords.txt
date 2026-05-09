@@ -1,5 +1,15 @@
 #Catalan multiwords file used for chunking
 #separatorRegExp=[\t;]
+Grup Jané;NPMSO00
+Francesc Pérez Moragón;NPMSSP0 # a vegades sense accent?
+Francesc Pérez i Moragón;NPMSSP0
+Pérez Moragón;NPMSSP0
+Pérez i Moragón;NPMSSP0
+Josefina de Beauharnais;NPFSSP0
+Joséphine de Beauharnais;NPFSSP0
+Palazzo Farnese;NPMSG00
+Palau Farnese;NPMSG00
+Comtat Venaissí;NPMSG00
 Takla Makan;NPMSG00
 Andrés Boix;NPMSSP0
 Oceanwide Expeditions;NPCNO00
@@ -8979,6 +8989,7 @@ Peset i Aleixandre;NPCNSP0
 Peset Aleixandre;NPCNSP0
 rector Peset;NPMSSP0
 Joan Baptista Peset;NPMSSP0
+Joan B. Peset;NPMSSP0
 Mercè Arànega;NPFSSP0
 Mikhaïl Borodin;NPMSSP0
 San Felipe;NPMSSP0
