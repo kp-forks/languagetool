@@ -1,5 +1,6 @@
 #Catalan multiwords file used for chunking
 #separatorRegExp=[\t;]
+Fran López;NPMSSP0
 Grup Jané;NPMSO00
 Francesc Pérez Moragón;NPMSSP0 # a vegades sense accent?
 Francesc Pérez i Moragón;NPMSSP0

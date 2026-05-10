@@ -987,6 +987,126 @@ neuromusculoesquelètics
 neuromusculoesquelètiques
 neurosarcoïdosi
 neurosarcoïdosis
+nord-estege
+nord-estegem
+nord-estegen
+nord-esteges
+nord-estegessen
+nord-estegesses
+nord-estegessin
+nord-estegessis
+nord-estegeu
+nord-estegi
+nord-estegin
+nord-estegis
+nord-estegés
+nord-estegéssem
+nord-estegésseu
+nord-estegéssim
+nord-estegéssiu
+nord-estegí
+nord-esteig
+nord-esteja
+nord-estejada
+nord-estejades
+nord-estejam
+nord-estejant
+nord-estejar
+nord-estejara
+nord-estejaran
+nord-estejarem
+nord-estejaren
+nord-estejares
+nord-estejareu
+nord-estejaria
+nord-estejarien
+nord-estejaries
+nord-estejarà
+nord-estejaràs
+nord-estejaré
+nord-estejaríem
+nord-estejaríeu
+nord-estejassen
+nord-estejasses
+nord-estejassin
+nord-estejassis
+nord-estejat
+nord-estejats
+nord-estejau
+nord-estejava
+nord-estejaven
+nord-estejaves
+nord-estejo
+nord-estejà
+nord-estejàrem
+nord-estejàreu
+nord-estejàs
+nord-estejàssem
+nord-estejàsseu
+nord-estejàssim
+nord-estejàssiu
+nord-estejàvem
+nord-estejàveu
+nord-oestege
+nord-oestegem
+nord-oestegen
+nord-oesteges
+nord-oestegessen
+nord-oestegesses
+nord-oestegessin
+nord-oestegessis
+nord-oestegeu
+nord-oestegi
+nord-oestegin
+nord-oestegis
+nord-oestegés
+nord-oestegéssem
+nord-oestegésseu
+nord-oestegéssim
+nord-oestegéssiu
+nord-oestegí
+nord-oesteig
+nord-oesteja
+nord-oestejada
+nord-oestejades
+nord-oestejam
+nord-oestejant
+nord-oestejar
+nord-oestejara
+nord-oestejaran
+nord-oestejarem
+nord-oestejaren
+nord-oestejares
+nord-oestejareu
+nord-oestejaria
+nord-oestejarien
+nord-oestejaries
+nord-oestejarà
+nord-oestejaràs
+nord-oestejaré
+nord-oestejaríem
+nord-oestejaríeu
+nord-oestejassen
+nord-oestejasses
+nord-oestejassin
+nord-oestejassis
+nord-oestejat
+nord-oestejats
+nord-oestejau
+nord-oestejava
+nord-oestejaven
+nord-oestejaves
+nord-oestejo
+nord-oestejà
+nord-oestejàrem
+nord-oestejàreu
+nord-oestejàs
+nord-oestejàssem
+nord-oestejàsseu
+nord-oestejàssim
+nord-oestejàssiu
+nord-oestejàvem
+nord-oestejàveu
 numberblock
 numberblocks
 obreportes
@@ -1058,7 +1178,6 @@ prebèl·lics
 prebèl·liques
 preintervencions
 preintervenció
-proamnistia
 probèl·lic
 probèl·lica
 probèl·lics
