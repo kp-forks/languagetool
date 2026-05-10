@@ -1,6 +1,8 @@
 # Words that extend the spell checker. See ignore.txt for words that should be
 # completely ignored (i.e. not used to create suggestions).
 AIEA
+ALSA
+APDCAT
 Aiguadolç
 Aldocumar
 Almisrà
@@ -10,6 +12,7 @@ Arnaud
 Arquillué
 Artaud
 Basij
+Beauharnais
 Behçet
 Binibèquer
 Breton
@@ -56,6 +59,7 @@ Leavitt
 Lerna
 Magyar
 Mallafré
+Malmaison
 Maven
 McNeil
 McNeill
@@ -79,11 +83,13 @@ RBA
 Rayuela
 Rosselló-Pòrcel
 Rostec
+Shin-chan
 Sinera
 Sintrom
 Sundiata
 Susanoo
 Taklamakan
+Transcaucàsia
 Umm-Kulthum
 Urriés
 VRAM
@@ -91,6 +97,7 @@ Ventolin
 Vicente
 Vietcong
 XTEC
+ZombieLars
 acerada
 acerades
 acerat
@@ -105,10 +112,19 @@ anticonservador
 anticonservadora
 anticonservadores
 anticonservadors
+antiinformatiu
+antiinformatius
+antiinformativa
+antiinformatives
 antitrumpisme
 antitrumpista
 antitrumpistes
 antivaixell
+antixinesa
+antixineses
+antixinesos
+antixinès
+antixinés
 artistoide
 artistoides
 austromarxista
@@ -665,6 +681,10 @@ fibrogènesi
 fibrogènesis
 ficcionament
 ficcionaments
+giga-electró-volt
+giga-electró-volts
+gigaelectronvolt
+gigaelectronvolts
 grafoterapeuta
 grafoterapeutes
 guisador
@@ -829,6 +849,14 @@ ideadores
 ideadors
 impeachment
 impeachments
+indecisa
+indecises
+indecisos
+indecís
+individualitzador
+individualitzadora
+individualitzadores
+individualitzadors
 inescindible
 inescindibles
 inessencial
@@ -918,6 +946,8 @@ macroabocadors
 mastofauna
 mastofaunes
 matadracs
+mega-electró-volt
+mega-electró-volts
 megafauna
 megafaunes
 metaliteratura
@@ -957,6 +987,8 @@ neuromusculoesquelètics
 neuromusculoesquelètiques
 neurosarcoïdosi
 neurosarcoïdosis
+numberblock
+numberblocks
 obreportes
 oleoquímic
 oleoquímica
@@ -1026,6 +1058,7 @@ prebèl·lics
 prebèl·liques
 preintervencions
 preintervenció
+proamnistia
 probèl·lic
 probèl·lica
 probèl·lics
@@ -1034,12 +1067,21 @@ procrastinador
 procrastinadora
 procrastinadores
 procrastinadors
+proxinesa
+proxineses
+proxinesos
+proxinès
+proxinés
 pseudofilosofia
 pseudofilosofies
 putiniana
 putinianes
 putinians
 putinià
+quilo-electró-volt
+quilo-electró-volts
+quiloelectronvolt
+quiloelectronvolts
 radiocompacte
 radiocompactes
 radioescolta
@@ -1346,11 +1388,15 @@ supercreatiu
 supercreatius
 supercreativa
 supercreatives
+superrobot
+superrobots
 supervacacions
 sòcia
 sòcies
 tecnofeixisme
 tecnofeixismes
+tecnooligarca
+tecnooligarques
 tecnooligarquia
 tecnooligarquies
 teleformacions
@@ -1359,6 +1405,10 @@ termocròmic
 termocròmica
 termocròmics
 termocròmiques
+tetra-electró-volt
+tetra-electró-volts
+tetraelectronvolt
+tetraelectronvolts
 therian
 therians
 tocadet

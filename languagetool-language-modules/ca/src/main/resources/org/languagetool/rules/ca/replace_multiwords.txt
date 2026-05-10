@@ -946,3 +946,4 @@ bon àrea=BonÀrea	Empresa alimentària.
 Joaquim Mallafré=Joaquim Mallafrè	Traductor i lingüista.
 a volaploma|a vola ploma=a rajaploma|tal com raja
 Yang-Tsé=Iangtsé|Iang-Tsé
+el mundo es un pañuelo=el món és ben petit|el món és un mocador	Expressió equivalent.

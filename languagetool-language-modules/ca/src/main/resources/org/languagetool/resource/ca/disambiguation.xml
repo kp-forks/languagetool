@@ -3833,17 +3833,19 @@ Copyright (C) 2012 Jaume Ortolà i Font
         </pattern>
         <disambig action="filterall"/>
     </rule>
-    <rulegroup id="deixar_verb" name="deixar verb">
-        <rule>
-            <pattern>
-                <marker>
-                    <token postag="V.*" postag_regexp="yes" inflected="yes">deixar</token>
-                </marker>
-                <token postag="[NA].*|V.P.*" postag_regexp="yes"/>
-            </pattern>
-            <disambig action="filter" postag="V.*"/>
-        </rule>
-    </rulegroup>
+    <rule id="deixar_verb" name="deixar verb">
+       <antipattern>
+            <token postag="SPS00|LOC_PREP|D.*" postag_regexp="yes"/>
+            <token postag="NC.*" postag_regexp="yes"/>
+        </antipattern>
+        <pattern>
+            <marker>
+                <token postag="V.*" postag_regexp="yes" inflected="yes">deixar<exception>deix</exception></token>
+            </marker>
+            <token postag="[NA].*|V.P.*" postag_regexp="yes"/>
+        </pattern>
+        <disambig action="filter" postag="V.*"/>
+    </rule>
     <rulegroup id="VAN_GOGH" name="van Gogh">
         <rule>
             <pattern>
@@ -10986,8 +10988,8 @@ Copyright (C) 2012 Jaume Ortolà i Font
         </rule>
         <rule>
             <pattern>
-                <token postag="SENT_START" skip="-1"><exception scope="next" regexp="yes">que|si</exception></token>
-                <token postag="V.[MSI].*|_GV_" postag_regexp="yes" skip="6"><exception negate_pos="yes" postag="V.[MSI].*|_GV_" postag_regexp="yes"/><exception scope="next" regexp="yes">com|perquè|que|/</exception><exception postag="_PUNCT.*|C.*|PR.*|PT.*|DT.*|.*LOC_CONJ.*|_loc_unavegada" postag_regexp="yes" scope="next"/></token>
+                <token postag="SENT_START" skip="-1"><exception scope="next" regexp="yes">que|si|qui|quan|com|quant</exception></token>
+                <token postag="V.[MSI].*|_GV_" postag_regexp="yes" skip="6"><exception negate_pos="yes" postag="V.[MSI].*|_GV_" postag_regexp="yes"/><exception scope="next" regexp="yes">com|perquè|que|/</exception><exception postag="_PUNCT.*|C.*|PR.*|PT.*|DT.*|.*LOC_CONJ.*|_loc_unavegada|D..MS." postag_regexp="yes" scope="next"/></token>
                 <token max="4" postag="D[^R].FS.|A..[FC][SN].|V.P..SF." postag_regexp="yes"/>
                 <marker>
                     <token postag="N.*" postag_regexp="yes">era</token>

@@ -25,6 +25,7 @@ Española	Española	NPCN000
 Espresso	Espresso	NPCN000
 Esprit	Esprit	NPCN000
 Feruk	Feruk	NPCN000
+Gené	Gené	NPCN000
 Gnossiennes	Gnossiennes	NPCN000
 Haria	Haria	NPCN000
 Haría	Haría	NPCN000
@@ -39,6 +40,7 @@ Palau-Sator	Palau-Sator	NPCSG00
 Palau-Solità	Palau-Solità	NPCSG00
 Partido	Partido	NPCN000
 Pascual	Pascual	NPCN000
+Relevant	Relevant	NPCN000
 Salon	Salon	NPCN000
 Sangre	Sangre	NPCN000
 Uno	Uno	NPCN000
