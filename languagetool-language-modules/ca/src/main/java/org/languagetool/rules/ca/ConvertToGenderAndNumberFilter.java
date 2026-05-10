@@ -283,7 +283,8 @@ public class ConvertToGenderAndNumberFilter extends RuleFilter {
             suggestionBuilder.insert(0, prepositionToAdd + " ");
           }
           suggestionBuilder.insert(0, addTot);
-          String suggestion = StringTools.preserveCase(suggestionBuilder.toString(), tokens[startPos].getToken());
+          String originalSpan = match.getSentence().getText().substring(tokens[startPos].getStartPos(), tokens[endPos].getEndPos());
+          String suggestion = StringTools.preserveCaseWordByWord(suggestionBuilder.toString(), originalSpan);
           if (endPos == posWord && startPos == posWord && tokens[posWord].getToken().equals(suggestion)) {
             continue;
           }
@@ -366,5 +367,7 @@ public class ConvertToGenderAndNumberFilter extends RuleFilter {
       return "";
     }
   }
+
+
 
 }
