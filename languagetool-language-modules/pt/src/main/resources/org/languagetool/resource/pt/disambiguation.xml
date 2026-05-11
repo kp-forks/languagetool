@@ -4115,6 +4115,26 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
     <disambig postag="NCMP000"/>
   </rule>
 
+  <rule id="VERBS_THIRD_PERSON_NOT_SECOND_20260511" name="These verbs aren't VMM02S0:PP1CSO00">
+    <pattern>
+      <marker>
+        <and>
+          <token postag='VMIP3S0:PP1CSO00' regexp='yes'>parece-me|ocorre-me|consta-me|compete-me|cabe-me|apraz-me</token>
+          <token postag='VMM02S0:PP1CSO00'/>
+        </and>
+      </marker>
+    </pattern>
+    <disambig action="remove" postag="VMM02S0:PP1CSO00"/>
+    <!--
+    Examples:
+             Dado este ponto da situação, parece-me impossível ter grau algum este ano letivo.
+             A mim, parece-me a única opção.
+             Compete-me testemunhar e eternizar cada instante, para que possa ser revivido sem limites.
+             Contestação a esse verso parece-me bem mais compreensível que uma mera rima forçada.
+             Este livro parece-me muito interessante.
+    -->
+  </rule>
+
   <rule id="SÃO_VERB_20260115" name="In this case SÃO is VMIP3P0">
     <pattern>
       <token postag='AQ..P.+|NC.P.+|(SPS00:)?[DP].+' postag_regexp='yes'/>
