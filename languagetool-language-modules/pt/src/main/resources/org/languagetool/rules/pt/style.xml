@@ -14212,6 +14212,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
             <example correction="sem">Concluirei o doutoramento, embora <marker>não terá</marker> nenhuma utilidade profissional.</example>
             <example correction="sem">Fizeram estudos importantes, mas estes <marker>não tinham</marker> objetivos militares.</example>
         </rule>
+
+
         <!-- A NÍVEL PROFISSIONAL profissionalmente -->
         <rulegroup id='A_NÍVEL_ADJC_NCC_ADVÉRBIO' name="✂️ A nível NC/Adj → Adv" type='style'>
             <!--IDEA shorten_it-->
@@ -14222,6 +14224,17 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
       É útil a nível civil e militar. → É útil civil e militarmente.
       É útil a nível civil, policial e militar. → É útil civil, policial e militarmente.
       -->
+
+                <antipattern>
+                    <token postag='RG'/>
+                    <token>a</token>
+                    <token>nível</token>
+                    <token postag='NC.+|AQ.+' postag_regexp='yes'/>
+                    <example>Questões de saúde na minha família, bem como a nível pessoal.</example>
+                    <example>A nível geográfico esta bem situado, tendo uma fácil acessibilidade tanto a nível terrestre como aéreo.</example>
+                    <example>A síntese de cristãos transformaram essas práticas, sem dúvida a nível local ...</example>
+                    <example>Passaram a dominar cada vez mais as políticas do estado, tanto a nível estadual quanto a nível nacional.</example>
+                </antipattern>
 
             <!-- É útil a nível civil. → É útil civilmente. -->
             <rule>
