@@ -1,3 +1,11 @@
+cobrit=cobert|cobrir
+cobrits=coberts
+cobrida=coberta
+cobrides=cobertes
+obrit=obert|obrir
+obrits=oberts
+obrida=oberta|obertura
+obrides=obertes
 requisament|requisació=requisa
 Yangtsé|Yangtze=Iangtsé|Iang-Tsé
 nyonyo|ñoño=apocat|aturat|fat|melindrós|delicat

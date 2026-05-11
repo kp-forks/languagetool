@@ -1,5 +1,10 @@
 #Catalan multiwords file used for chunking
 #separatorRegExp=[\t;]
+balança granatària;NCFS000
+balances granatàries;NCFS000
+Torcuato Fernández-Miranda Hevia;NPMSSP0
+Torcuato Fernández-Miranda;NPMSSP0
+Torcuato Fernández;NPMSSP0
 Fran López;NPMSSP0
 Grup Jané;NPMSO00
 Francesc Pérez Moragón;NPMSSP0 # a vegades sense accent?

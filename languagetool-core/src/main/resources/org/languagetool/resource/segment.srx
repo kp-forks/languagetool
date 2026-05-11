@@ -4848,7 +4848,7 @@
 </rule>
 <!-- 'Fisica I. En aquest cas' -->
 <rule break="yes">
-<beforebreak>(Jaume|Carles|Felip|Alfons|Pere|Ferran|Lluís|Enric|Eduard|Frederic|Napoleó|Nicolau|Pau|Guillem|Manuel|Víctor|Pau|Benet|Climent|Constantí|Alexandre|Física|Economia|Matemàtiques|Química|Biologia|Història|Filosofia|Economia|Estadística|Programació|Informàtica|Llengua|Catalana|Literatura|Àlgebra|Anàlisi|Matemàtica|Civil|Dret|Psicologia|Sociologia|Microeconomia|Fonètica|Gramàtica)\s[IXV]\.[\s\u00A0]</beforebreak>
+<beforebreak>(?iu)(?U)(Pràctiques|Pràctica|Pràcticum|Nivell|Construcció|Ramon|Berenguer|Títol|Capítol|Tema|Apartat|fase|tipus|classe|segle|Grau|Muhàmmad|Bartomeu|Jaume|Carles|Felip|Alfons|Pere|Ferran|Lluís|Enric|Eduard|Frederic|Napoleó|Nicolau|Pau|Guillem|Manuel|Víctor|Pau|Benet|Climent|Constantí|Alexandre|Física|Economia|Matemàtiques|Química|Biologia|Història|Filosofia|Economia|Estadística|Programació|Informàtica|Llengua|Catalana|Literatura|Àlgebra|Anàlisi|Matemàtica|Civil|Dret|Psicologia|Sociologia|Microeconomia|Fonètica|Gramàtica)[\s\u00A0][IXV]\.[\s\u00A0]+</beforebreak>
 <afterbreak>\p{Lu}</afterbreak>
 </rule>
 <!-- initials: A. C. Jones. Problem: [...] d'Alfons I. Ell era [...] -->
