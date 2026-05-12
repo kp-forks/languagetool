@@ -50,7 +50,9 @@ public final class MorfologikCatalanSpellerRule extends MorfologikSpellerRule {
   private static final List<String> PREFIX_AMB_ESPAI = Arrays.asList("pod", "ultra", "eco", "tele", "anti", "re", "des",
     "sen", "sem", "s", "avant", "auto", "ex", "extra", "macro", "mega", "meta", "micro", "multi", "mono", "mini", "post",
     "retro", "semi", "super", "trans", "pro", "g", "l", "m", "e", "pos", "acost");
-  private static final List<String> ESPAI_AMB_SUFIX = Arrays.asList("a", "o", "i");
+  private static final List<String> ESPAI_AMB_SUFIX_NO = Arrays.asList("mi", "lis");
+  private static final List<String> ESPAI_AMB_SUFIX_SI = Arrays.asList("a", "o", "i");
+
   private static final List<String> PRONOM_INICIAL = Arrays.asList("em", "et", "es", "se", "ens", "us", "vos", "li", "hi",
     "ho", "el", "la", "els", "les");
 
@@ -99,7 +101,7 @@ public final class MorfologikCatalanSpellerRule extends MorfologikSpellerRule {
     "nsla", "nsli", "sela", "seli", "sels", "sens", "seus", "tela", "teli", "tels", "tens", "usel", "usem", "usen",
     "ushi", "usho", "usla", "usli", "lan", "len", "les", "lhi", "lil", "lin", "los", "mel", "men", "mhi", "mho", "nhi"
     , "nos", "sel", "sem", "sen", "set", "shi", "sho", "tel", "tem", "ten", "thi", "tho", "vos", "hi", "ho", "la",
-    "li", "lo", "ls", "me", "ne", "ns", "se", "te", "us", "mi", "nosi", "losi", "si");
+    "li", "lo", "ls", "me", "ne", "ns", "se", "te", "us", "mi", "nosi", "losi", "si", "lis");
   // "l", "m", "n", "s", "t"
 
   private final CatalanTagger tagger;
@@ -183,11 +185,11 @@ public final class MorfologikCatalanSpellerRule extends MorfologikSpellerRule {
           continue;
         }
         // remove wrong split sufixes
-        if ("mi".equals(parts[1].toLowerCase())) {
+        if (ESPAI_AMB_SUFIX_NO.contains(parts[1].toLowerCase())) {
           continue;
         }
         // allow only one-letter second part " a", " o", " i"
-        if (parts[1].length() == 1 && !ESPAI_AMB_SUFIX.contains(parts[1].toLowerCase())) {
+        if (parts[1].length() == 1 && !ESPAI_AMB_SUFIX_SI.contains(parts[1].toLowerCase())) {
           continue;
         }
         // remove preposition + inflected verb

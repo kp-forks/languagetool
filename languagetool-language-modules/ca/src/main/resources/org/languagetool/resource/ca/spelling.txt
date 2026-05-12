@@ -261,6 +261,8 @@ claustret
 claustrets
 coallotjament
 coallotjaments
+coloratura
+coloratures
 complert
 complerta
 complertes

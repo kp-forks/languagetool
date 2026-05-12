@@ -239,6 +239,9 @@ public class MorfologikCatalanSpellerRuleTest {
     assertSuggestionsTest("daconseguirlos", "[d'aconseguir-los, aconseguir-los]", 1);
     assertSuggestionsTest("laconseguirlos", "[l'aconseguir-los, aconseguir-los]", 1);
     assertSuggestionsTest("portarinhi", "[portar-hi, portar-n'hi]", 1);
+    assertSuggestionsTest("Vull dirlis això.", "[dir-los, birlis, dialitz]", 1);
+    assertSuggestionsTest("Portemlis el sopar més tard.", "[Portem-los, Portells]", 1);
+
     assertSuggestionsTest("norueg", "[noruega, noruec, Noruega, nurag]", 1);
     assertSuggestionsTest("prenense", "[prenent-se, pretensa, pretense, prenen se]", 1);
     assertSuggestionsTest("cual", "[qual]", 1);

@@ -292,6 +292,8 @@ claustret	claustret	NCMS000
 claustrets	claustret	NCMP000
 coallotjament	coallotjament	NCMS000
 coallotjaments	coallotjament	NCMP000
+coloratura	coloratura	NCFS000
+coloratures	coloratura	NCFP000
 complert	complir	VMP00SMC
 complerta	complir	VMP00SFC
 complertes	complir	VMP00PFC
