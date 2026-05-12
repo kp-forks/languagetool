@@ -6,6 +6,7 @@
 ########## Additions ##########
 AIEA	AIEA	NPFSO00
 ALSA	ALSA	NPCNO00
+ANPE	ANPE	NPCNO00
 APDCAT	APDCAT	NPFSO00
 Aiguadolç	Aiguadolç	NPMSG00
 Aldocumar	Aldocumar	NPMSO00
@@ -33,6 +34,7 @@ Corriere	Corriere	NPMSO00
 Cospedal	Cospedal	NPCNSP0
 DevOps	DevOps	NCMN000
 Dimona	Dimona	NPCSG00
+FAMPA	FAMPA	NPFSO00
 FUNDAE	FUNDAE	NPFSO00
 Fafni	Fafni	NPMSSP0
 Faruk	Faruk	NPCN000
@@ -156,6 +158,8 @@ basij	basij	NCCS000
 basijs	basij	NCCP000
 bellea	bellea	NCFS000
 bellees	bellea	NCFP000
+bifuncional	bifuncional	AQ0CS0
+bifuncionals	bifuncional	AQ0CP0
 biofílic	biofílic	AQ0MS0
 biofílica	biofílic	AQ0FS0
 biofílics	biofílic	AQ0MP0
@@ -467,6 +471,10 @@ copatrocinéssiu	copatrocinar	VMSI2P02
 copatrociní	copatrocinar	VMIS1S00
 copatrocín	copatrocinar	VMIP1S0B
 cranialment	cranialment	RG
+criminalitzador	criminalitzador	AQ0MS0
+criminalitzadora	criminalitzador	AQ0FS0
+criminalitzadores	criminalitzador	AQ0FP0
+criminalitzadors	criminalitzador	AQ0MP0
 desaprenentatge	desaprenentatge	NCMS000
 desaprenentatges	desaprenentatge	NCMP000
 desarmant	desarmant	AQ0CS0
@@ -1219,6 +1227,8 @@ lliurable	lliurable	AQ0CS0
 lliurables	lliurable	AQ0CP0
 macroabocador	macroabocador	NCMS000
 macroabocadors	macroabocador	NCMP000
+massatget	massatget	NCMS000
+massatgets	massatget	NCMP000
 mastofauna	mastofauna	NCFS000
 mastofaunes	mastofauna	NCFP000
 matadracs	matadracs	AQ0CN0

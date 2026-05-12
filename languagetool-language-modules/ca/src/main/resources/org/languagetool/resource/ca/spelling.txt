@@ -2,6 +2,7 @@
 # completely ignored (i.e. not used to create suggestions).
 AIEA
 ALSA
+ANPE
 APDCAT
 Aiguadolç
 Aldocumar
@@ -29,6 +30,7 @@ Corriere
 Cospedal
 DevOps
 Dimona
+FAMPA
 FUNDAE
 Fafni
 Faruk
@@ -151,6 +153,8 @@ basij
 basijs
 bellea
 bellees
+bifuncional
+bifuncionals
 biofílic
 biofílica
 biofílics
@@ -388,6 +392,10 @@ copatrocinéssiu
 copatrociní
 copatrocín
 cranialment
+criminalitzador
+criminalitzadora
+criminalitzadores
+criminalitzadors
 desaprenentatge
 desaprenentatges
 desarmant
@@ -969,6 +977,8 @@ lliurable
 lliurables
 macroabocador
 macroabocadors
+massatget
+massatgets
 mastofauna
 mastofaunes
 matadracs

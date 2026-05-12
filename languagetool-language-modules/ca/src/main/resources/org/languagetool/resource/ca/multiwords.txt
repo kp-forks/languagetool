@@ -1,7 +1,9 @@
 #Catalan multiwords file used for chunking
 #separatorRegExp=[\t;]
+María del Carmen Ortí;NPFSSP0
+Carmen Ortí;NPFSSP0
 balança granatària;NCFS000
-balances granatàries;NCFS000
+balances granatàries;NCFP000
 Torcuato Fernández-Miranda Hevia;NPMSSP0
 Torcuato Fernández-Miranda;NPMSSP0
 Torcuato Fernández;NPMSSP0

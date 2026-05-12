@@ -23782,11 +23782,25 @@ Copyright (C) 2012 Jaume Ortolà i Font
         </rule>
         <rule>
             <pattern>
-                <token postag="V.*" postag_regexp="yes" inflected="yes" regexp="yes">tornar|començar|anar|arribar</token>
+                <token postag="V.*" postag_regexp="yes" inflected="yes" regexp="yes">tornar|començar|anar|arribar|aplegar</token>
                 <token>a</token>
                 <token postag="V.N.*" postag_regexp="yes"/>
             </pattern>
             <disambig action="addchunk">
+                <wd pos="GV"/>
+                <wd pos="GV"/>
+                <wd pos="GV"/>
+            </disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token postag="V.*" postag_regexp="yes" inflected="yes" regexp="yes">arribar|aplegar</token>
+                <token>mai</token>
+                <token>a</token>
+                <token postag="V.N.*" postag_regexp="yes"/>
+            </pattern>
+            <disambig action="addchunk">
+                <wd pos="GV"/>
                 <wd pos="GV"/>
                 <wd pos="GV"/>
                 <wd pos="GV"/>
