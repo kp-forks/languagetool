@@ -3803,7 +3803,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
         </rulegroup>
 
 
-        <rule id='A_VOLTA_DE_EM_TORNO_DE' name="🤵 'à/em volta' de → 'em torno'" type='style' tone_tags='formal' default='temp_off'>
+        <rule id='A_VOLTA_DE_EM_TORNO_DE' name="🤵 'à/em volta' de → 'em torno'" type='style' tone_tags='formal'>
             <!-- ChatGPT 5 and new disambiguator for 2026+ -->
             <pattern>
                 <token skip='1' regexp='yes' inflected='yes'>centrar|articular|estruturar|debater|discutir|versar|incidir|assentar|basear|depender|gravitar|convergir|focar|concentrar|orientar|formular|construir|debate|discussão|polémica|controvérsia|questão|tema|assunto|investigação|análise|estudo|teoria|hipótese|narrativa|discurso|argumento|problemática|reflexão|interpretação|perspetiva|estratégia|campanha</token> <!-- safelist GPT 5 -->
