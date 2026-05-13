@@ -34,6 +34,8 @@ Corriere	Corriere	NPMSO00
 Cospedal	Cospedal	NPCNSP0
 DevOps	DevOps	NCMN000
 Dimona	Dimona	NPCSG00
+Eurocup	Eurocup	NPFSO00
+Eurocups	Eurocup	NPFPO00
 FAMPA	FAMPA	NPFSO00
 FUNDAE	FUNDAE	NPFSO00
 Fafni	Fafni	NPMSSP0
@@ -57,6 +59,8 @@ Iang-Tsé	Iang-Tsé	NPMSG00
 Iangtsé	Iangtsé	NPMSG00
 Ifigenia	Ifigenia	NPFSSP0
 Ifigenies	Ifigenia	NPFPSP0
+Jaeger	Jaeger	NPCNSP0
+Jäger	Jäger	NPCNSP0
 Kalman	Kalman	NPCNSP0
 Kharg	Kharg	NPCSG00
 LaGuardia	LaGuardia	NPCNG00
@@ -997,6 +1001,12 @@ hipercentralitzada	hipercentralitzat	AQ0FS0
 hipercentralitzades	hipercentralitzat	AQ0FP0
 hipercentralitzat	hipercentralitzat	AQ0MS0
 hipercentralitzats	hipercentralitzat	AQ0MP0
+hiperpolític	hiperpolític	AQ0MS0
+hiperpolítica	hiperpolític	AQ0FS0
+hiperpolítica	hiperpolítica	NCFS000
+hiperpolítics	hiperpolític	AQ0MP0
+hiperpolítiques	hiperpolític	AQ0FP0
+hiperpolítiques	hiperpolítica	NCFP000
 hiperreligiosa	hiperreligiós	AQ0FS0
 hiperreligioses	hiperreligiós	AQ0FP0
 hiperreligiositat	hiperreligiositat	NCFS000
@@ -1246,6 +1256,8 @@ microtitulacions	microtitulació	NCFP000
 microtitulació	microtitulació	NCFS000
 minivacacions	minivacacions	NCFP000
 minivacances	minivacances	NCFP000
+monohidrat	monohidrat	NCMS000
+monohidrats	monohidrat	NCMP000
 morfogenètic	morfogenètic	AQ0MS0
 morfogenètica	morfogenètic	AQ0FS0
 morfogenètics	morfogenètic	AQ0MP0
@@ -1839,6 +1851,8 @@ reomplert	reomplir	VMP00SMC
 reomplerta	reomplir	VMP00SFC
 reomplertes	reomplir	VMP00PFC
 reomplerts	reomplir	VMP00PMC
+repolititzacions	repolitització	NCFP000
+repolitització	repolitització	NCFS000
 reresagrari	reresagrari	NCMS000
 reresagraris	reresagrari	NCMP000
 restablert	restablir	VMP00SMC
@@ -2010,6 +2024,8 @@ tocadetes	tocadet	AQ0FP0
 tocadets	tocadet	AQ0MP0
 tripi	tripi	NCMS000
 tripis	tripi	NCMP000
+turboglobalitzacions	turboglobalització	NCFP000
+turboglobalització	turboglobalització	NCFS000
 ultracorrecta	ultracorrecte	AQ0FS0
 ultracorrecte	ultracorrecte	AQ0MS0
 ultracorrectes	ultracorrecte	AQ0CP0

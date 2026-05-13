@@ -30,6 +30,8 @@ Corriere
 Cospedal
 DevOps
 Dimona
+Eurocup
+Eurocups
 FAMPA
 FUNDAE
 Fafni
@@ -53,6 +55,8 @@ Iang-Tsé
 Iangtsé
 Ifigenia
 Ifigenies
+Jaeger
+Jäger
 Kalman
 Kharg
 LaGuardia
@@ -797,6 +801,10 @@ hipercentralitzada
 hipercentralitzades
 hipercentralitzat
 hipercentralitzats
+hiperpolític
+hiperpolítica
+hiperpolítics
+hiperpolítiques
 hiperreligiosa
 hiperreligioses
 hiperreligiositat
@@ -996,6 +1004,8 @@ microtitulacions
 microtitulació
 minivacacions
 minivacances
+monohidrat
+monohidrats
 morfogenètic
 morfogenètica
 morfogenètics
@@ -1469,6 +1479,8 @@ reomplert
 reomplerta
 reomplertes
 reomplerts
+repolititzacions
+repolitització
 reresagrari
 reresagraris
 restablert
@@ -1614,6 +1626,8 @@ tocadetes
 tocadets
 tripi
 tripis
+turboglobalitzacions
+turboglobalització
 ultracorrecta
 ultracorrecte
 ultracorrectes

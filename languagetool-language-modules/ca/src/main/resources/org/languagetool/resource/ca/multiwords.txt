@@ -1,5 +1,12 @@
 #Catalan multiwords file used for chunking
 #separatorRegExp=[\t;]
+Jean-Antoine Chaptal;NPMSSP0
+Chaptal de Chanteloup;NPCNSP0
+Hortensia Herrero Chacón;NPFSSP0
+Hortensia Herrero;NPFSSP0
+Orquestra Philharmonia;NPFSO00
+von Dohnányi;NPCNSP0
+Telekom Center Athens;NPMSG00
 María del Carmen Ortí;NPFSSP0
 Carmen Ortí;NPFSSP0
 balança granatària;NCFS000
