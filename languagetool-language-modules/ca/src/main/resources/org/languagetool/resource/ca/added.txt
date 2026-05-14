@@ -1553,6 +1553,11 @@ proxinès	proxinès	AQ0MS0
 proxinés	proxinès	AQ0MS0
 pseudofilosofia	pseudofilosofia	NCFS000
 pseudofilosofies	pseudofilosofia	NCFP000
+pseudogenètic	pseudogenètic	AQ0MS0
+pseudogenètica	pseudogenètic	AQ0FS0
+pseudogenètics	pseudogenètic	AQ0MP0
+pseudogenètiques	pseudogenètic	AQ0FP0
+puntcom	puntcom	AQ0CN0
 putiniana	putinià	AQ0FS0
 putinianes	putinià	AQ0FP0
 putinians	putinià	AQ0MP0
@@ -1982,6 +1987,10 @@ sofrides	sofrir	VMP00PFV
 sofrit	sofrir	VMP00SMV
 sofrits	sofrir	VMP00PMV
 speed	speed	NCMN000
+supercavitacions	supercavitació	NCFP000
+supercavitació	supercavitació	NCFS000
+supercavitant	supercavitant	AQ0CS0
+supercavitants	supercavitant	AQ0CP0
 supercorrecta	supercorrecte	AQ0FS0
 supercorrecte	supercorrecte	AQ0MS0
 supercorrectes	supercorrecte	AQ0CP0
@@ -1998,6 +2007,8 @@ suplertes	suplir	VMP00PFC
 suplerts	suplir	VMP00PMC
 sòcia	soci	AQ0FS0
 sòcies	soci	AQ0FP0
+tecnoaristocràcia	tecnoaristocràcia	NCFS000
+tecnoaristocràcies	tecnoaristocràcia	NCFP000
 tecnofeixisme	tecnofeixisme	NCMS000
 tecnofeixismes	tecnofeixisme	NCMP000
 tecnooligarca	tecnooligarca	NCCS000
@@ -2035,6 +2046,8 @@ ultraprecarietats	ultraprecarietat	NCFP000
 ultraprecaris	ultraprecari	AQ0MP0
 ultraprecària	ultraprecari	AQ0FS0
 ultraprecàries	ultraprecari	AQ0FP0
+vectoritzacions	vectorització	NCFP000
+vectorització	vectorització	NCFS000
 vellea	vellea	NCFS000
 vellees	vellea	NCFP000
 verdet	verdet	AQ0MS0
@@ -2045,6 +2058,7 @@ vermellet	vermellet	AQ0MS0
 vermelleta	vermellet	AQ0FS0
 vermelletes	vermellet	AQ0FP0
 vermellets	vermellet	AQ0MP0
+xarneguisme	xarneguisme	NCMS000
 xiuxiuejador	xiuxiuejador	AQ0MS0
 xiuxiuejadora	xiuxiuejador	AQ0FS0
 xiuxiuejadores	xiuxiuejador	AQ0FP0

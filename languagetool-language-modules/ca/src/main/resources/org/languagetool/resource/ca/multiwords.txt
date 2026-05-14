@@ -1,5 +1,9 @@
 #Catalan multiwords file used for chunking
 #separatorRegExp=[\t;]
+Àlex van der Laan;NPMSSP0
+Enrique Riquelme;NPMSSP0
+Cox Energy;NPCNO00
+Los Altos;NPMPG00
 Jean-Antoine Chaptal;NPMSSP0
 Chaptal de Chanteloup;NPCNSP0
 Hortensia Herrero Chacón;NPFSSP0

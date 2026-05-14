@@ -25,6 +25,7 @@ Española	Española	NPCN000
 Espresso	Espresso	NPCN000
 Esprit	Esprit	NPCN000
 Feruk	Feruk	NPCN000
+Fundamental	Fundamental	NPCN000
 Gené	Gené	NPCN000
 Gnossiennes	Gnossiennes	NPCN000
 Haria	Haria	NPCN000
@@ -86,6 +87,8 @@ preestablertes	preestablir	VMP00PF0
 preestablerts	preestablir	VMP00PM0
 procorrent	procorrent	NCMS000
 procorrents	procorrent	NCMP000
+puntcom	puntcom	AQ0CS0
+puntcoms	puntcom	AQ0CP0
 reblert	reblir	VMP00SM0
 reblerta	reblir	VMP00SF0
 reblertes	reblir	VMP00PF0

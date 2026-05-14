@@ -1253,6 +1253,11 @@ proxinès
 proxinés
 pseudofilosofia
 pseudofilosofies
+pseudogenètic
+pseudogenètica
+pseudogenètics
+pseudogenètiques
+puntcom
 putiniana
 putinianes
 putinians
@@ -1586,6 +1591,10 @@ sofrides
 sofrit
 sofrits
 speed
+supercavitacions
+supercavitació
+supercavitant
+supercavitants
 supercorrecta
 supercorrecte
 supercorrectes
@@ -1602,6 +1611,8 @@ suplertes
 suplerts
 sòcia
 sòcies
+tecnoaristocràcia
+tecnoaristocràcies
 tecnofeixisme
 tecnofeixismes
 tecnooligarca
@@ -1637,6 +1648,8 @@ ultraprecarietats
 ultraprecaris
 ultraprecària
 ultraprecàries
+vectoritzacions
+vectorització
 vellea
 vellees
 verdet
@@ -1647,6 +1660,7 @@ vermellet
 vermelleta
 vermelletes
 vermellets
+xarneguisme
 xiuxiuejador
 xiuxiuejadora
 xiuxiuejadores
