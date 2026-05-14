@@ -490,6 +490,15 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
             <!-- It is a Portuguese European rule only because "cara(s)" is commonly used in Brazil to address people informally -->
 
             <antipattern>
+                <token postag='V.+' postag_regexp='yes' inflected='yes'>ser</token>
+                <token spacebefore='no' postag='_PUNCT_COMMA'/>
+                <token regexp='yes'>car[ao]s?</token>
+                <token postag='N.+|AQ.+' postag_regexp='yes'/>
+                <example>É, caro leitor, o melhor livro de sempre.</example>
+                <example>Foi, caros colegas, um gosto imenso.</example>
+            </antipattern>
+
+            <antipattern>
                 <token skip='1' postag='V.+' postag_regexp='yes' inflected='yes'>ser</token>
                 <token regexp='yes'>caras?</token>
                 <token regexp='yes'>d[aeo]s?</token>
