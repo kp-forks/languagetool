@@ -1475,6 +1475,16 @@ Copyright (C) 2012 Jaume Ortolà i Font
             <wd lemma="segle" pos="NCMN000"/>
         </disambig>
     </rule>
+    <rule id="tardar" name="tarda (verb)">
+        <pattern>
+            <marker>
+            <token inflected="yes">tardar</token>
+            </marker>
+            <token postag="D[IN].*" postag_regexp="yes" min="0"/>
+            <token inflected="yes" regexp="yes">&unitats_temps;|&periodes_temps;|més</token>
+        </pattern>
+        <disambig action="filter" postag="V.*"/>
+    </rule>
     <rulegroup id="PERIODES_DE_TEMPS" name="períodes de temps">
         <antipattern>
             <!-- el segon km -->
