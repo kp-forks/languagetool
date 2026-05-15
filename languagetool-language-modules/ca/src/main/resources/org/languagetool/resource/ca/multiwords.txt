@@ -1,5 +1,7 @@
 #Catalan multiwords file used for chunking
 #separatorRegExp=[\t;]
+Zaira Pérez;NPFSSP0
+Naby Dakhli;NPMSSP0
 Xavier Cuadras;NPMSSP0
 Xavier Cuadras Morató;NPMSSP0
 Rosa Seser;NPFSSP0

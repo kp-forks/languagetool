@@ -20334,6 +20334,19 @@ Copyright (C) 2012 Jaume Ortolà i Font
     <rulegroup id="NO_RELATIU" name="no hi ha estructura de relatiu">
         <rule>
             <pattern>
+                <token>interès</token>
+                <marker>
+                    <token>en</token>
+                </marker>
+                <token>el</token>
+                <token>que</token>
+            </pattern>
+            <disambig action="add">
+                <wd pos="_no_relatiu"/>
+            </disambig>
+        </rule>
+        <rule>
+            <pattern>
                 <token>d'</token>
                 <token>acord</token>
                 <marker>

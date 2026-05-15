@@ -145,8 +145,17 @@ public final class MorfologikCatalanSpellerRule extends MorfologikSpellerRule {
     // move some run-on-words suggestions to the top
     List<SuggestedReplacement> newSuggestions = new ArrayList<>();
     String wordWithouDiacriticsString = StringTools.removeDiacritics(word);
+    List<String> replacements = new ArrayList<>();
     for (int i = 0; i < suggestions.size(); i++) {
-      String replacement = suggestions.get(i).getReplacement();
+      replacements.add(suggestions.get(i).getReplacement());
+    }
+    for (int i = 0; i < suggestions.size(); i++) {
+      String replacement = replacements.get(i);
+      // avoid duplicate capitalized replacement
+      if (word.equals(word.toLowerCase()) && StringTools.isCapitalizedWord(replacement)
+        && replacements.contains(replacement.toLowerCase())) {
+        continue;
+      }
       if (inalambric.contains(replacement.toLowerCase())) {
         newSuggestions = new ArrayList<>();
         newSuggestions.add(new SuggestedReplacement("sense fils"));
@@ -212,19 +221,21 @@ public final class MorfologikCatalanSpellerRule extends MorfologikSpellerRule {
 
       // move some split words to first place
       if (parts.length == 2) {
+        List<AnalyzedTokenReadings> atkn0 = tagger.tag(List.of(parts[0]));
+        List<AnalyzedTokenReadings> atkn1 = tagger.tag(List.of(parts[1]));
+        boolean isBalear0 = atkn0.get(0).matchesPosTagRegex(VERB_BALEAR) && !atkn0.get(0).hasPosTagStartingWith("N")
+          && !atkn0.get(0).hasPosTagStartingWith("S");
+        boolean isBalear1 = atkn1.get(0).matchesPosTagRegex(VERB_BALEAR) && !atkn1.get(0).hasPosTagStartingWith("N")
+          && !atkn1.get(0).hasPosTagStartingWith("S");
+        if (isBalear0 || isBalear1) {
+          continue;
+        }
         if (parts[1].length() > 1 && PARTICULA_INICIAL.contains(parts[0].toLowerCase())) {
-          String newSuggestion = parts[1];
-          List<AnalyzedTokenReadings> atkn = tagger.tag(List.of(newSuggestion));
-          boolean isBalear = atkn.get(0).matchesPosTagRegex(VERB_BALEAR) && !atkn.get(0).hasPosTagStartingWith("N");
-          if (!isBalear) {
             newSuggestions.add(posNewSugg, suggestions.get(i));
             continue;
-          }
         }
         if (parts[1].length() > 1 && PRONOM_INICIAL.contains(parts[0].toLowerCase())) {
-          String newSuggestion = parts[1];
-          List<AnalyzedTokenReadings> atkn = tagger.tag(List.of(newSuggestion));
-          if (atkn.get(0).matchesPosTagRegex(VERB_INDSUBJ)) {
+          if (atkn1.get(0).matchesPosTagRegex(VERB_INDSUBJ)) {
             newSuggestions.add(posNewSugg, suggestions.get(i));
             continue;
           }

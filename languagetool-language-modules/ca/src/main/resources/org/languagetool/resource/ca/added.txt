@@ -25,6 +25,7 @@ Bärenreiter	Bärenreiter	NPCNO00
 Bärenreiter-Verlag	Bärenreiter-Verlag	NPCSO00
 CDRAM	CDRAM	NCFN000
 CSKA	CSKA	NPMSO00
+CTTI	CTTI	NPMSO00
 CTranslate	CTranslate	NPCNO00
 CUDA	CUDA	NPCNO00
 Centcom	Centcom	NPMSO00
