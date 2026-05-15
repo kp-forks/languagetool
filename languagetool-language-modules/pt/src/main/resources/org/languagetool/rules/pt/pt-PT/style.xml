@@ -492,9 +492,10 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
             <antipattern>
                 <token postag='V.+' postag_regexp='yes' inflected='yes'>ser</token>
                 <token spacebefore='no' postag='_PUNCT_COMMA'/>
-                <token regexp='yes'>caros?</token>
+                <token regexp='yes'>car[ao]s?</token>
                 <token postag='N.+|AQ.+' postag_regexp='yes'/>
                 <example>É, caro leitor, o melhor livro de sempre.</example>
+                <example>É, cara leitora, o melhor livro de sempre.</example>
                 <example>É, caro Rui, o melhor livro de sempre.</example>
                 <example>Foi, caros colegas, um gosto imenso.</example>
             </antipattern>
