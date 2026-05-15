@@ -485,7 +485,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
     <category id='FORMAL_SPEECH_PT_PT' name='🇵🇹 Linguagem Formal' type='register' tone_tags="formal">
 
 
-        <rule id='SER_CARO_ONEROSO' name="🤵 Ser 'caro' → oneroso" type='style' tone_tags='formal' default='temp_off'>
+        <rule id='SER_CARO_ONEROSO_DISPENDIOSO' name="🤵 Ser 'caro' → oneroso/dispendioso" type='style' tone_tags='formal' tags='picky' default='temp_off'>
             <!-- ChatGPT 5 and new disambiguator for 2026+ -->
             <!-- It is a Portuguese European rule only because "cara(s)" is commonly used in Brazil to address people informally -->
 
@@ -495,6 +495,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
                 <token regexp='yes'>car[ao]s?</token>
                 <token postag='N.+|AQ.+' postag_regexp='yes'/>
                 <example>É, caro leitor, o melhor livro de sempre.</example>
+                <example>É, cara leitora, o melhor livro de sempre.</example>
+                <example>É, caro Rui, o melhor livro de sempre.</example>
                 <example>Foi, caros colegas, um gosto imenso.</example>
             </antipattern>
 
@@ -533,21 +535,23 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
             </antipattern>
 
             <pattern>
-                <token skip='1' postag='V.+' postag_regexp='yes' inflected='yes'>ser</token>
+                <token skip='1' postag='V.+' postag_regexp='yes' inflected='yes'>ser</token> <!-- skip='2' would give too many FPs -->
+                <token min='0' max='1' postag='RM|RG' postag_regexp='yes'/> <!-- To give a few more valid hits -->
                 <marker>
                     <token regexp='yes'>car[ao]s?</token>
                 </marker>
             </pattern>
-            <message>Em registo formal, pode preferir &quot;oneroso&quot;.</message>
-            <suggestion><match no='2' postag='AQ0(..)0' postag_replace='AQ0$10'>oneroso</match></suggestion>
-            <example correction="oneroso">O processo é <marker>caro</marker>.</example>
-            <example correction="oneroso">O processo é extremamente <marker>caro</marker>.</example>
-            <example correction="onerosos">Os procedimentos são <marker>caros</marker>.</example>
-            <example correction="onerosos">Os procedimentos são bastante <marker>caros</marker>.</example>
-            <example correction="onerosa">A manutenção é <marker>cara</marker>.</example>
-            <example correction="onerosa">A manutenção é bastante <marker>cara</marker>.</example>
-            <example correction="onerosas">As licenças são <marker>caras</marker>.</example>
-            <example correction="onerosas">As licenças são muito <marker>caras</marker>.</example>
+            <message>Em registo formal, pode preferir &quot;dispendioso&quot; ou &quot;oneroso&quot;.</message>
+            <suggestion><match no='3' postag='AQ0(..)0' postag_replace='AQ0$10'>oneroso</match></suggestion>
+            <suggestion><match no='3' postag='AQ0(..)0' postag_replace='AQ0$10'>dispendioso</match></suggestion>
+            <example correction="oneroso|dispendioso">O processo é <marker>caro</marker>.</example>
+            <example correction="oneroso|dispendioso">O processo é extremamente <marker>caro</marker>.</example>
+            <example correction="onerosos|dispendiosos">Os procedimentos são <marker>caros</marker>.</example>
+            <example correction="onerosos|dispendiosos">Os procedimentos são bastante <marker>caros</marker>.</example>
+            <example correction="onerosa|dispendiosa">A manutenção é <marker>cara</marker>.</example>
+            <example correction="onerosa|dispendiosa">A manutenção é bastante <marker>cara</marker>.</example>
+            <example correction="onerosas|dispendiosas">As licenças são <marker>caras</marker>.</example>
+            <example correction="onerosas|dispendiosas">As licenças são muito <marker>caras</marker>.</example>
         </rule>
 
 
