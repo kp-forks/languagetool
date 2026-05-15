@@ -1113,6 +1113,8 @@ idiotitzador	idiotitzador	AQ0MS0
 idiotitzadora	idiotitzador	AQ0FS0
 idiotitzadores	idiotitzador	AQ0FP0
 idiotitzadors	idiotitzador	AQ0MP0
+immatriculable	immatriculable	AQ0CS0
+immatriculables	immatriculable	AQ0CP0
 impeachment	impeachment	NCMS000
 impeachments	impeachment	NCMP000
 incomplert	incomplir	VMP00SMC

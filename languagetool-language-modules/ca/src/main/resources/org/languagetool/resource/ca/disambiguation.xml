@@ -1476,9 +1476,18 @@ Copyright (C) 2012 Jaume Ortolà i Font
         </disambig>
     </rule>
     <rule id="tardar" name="tarda (verb)">
+        <antipattern>
+            <token postag="SPS00|LOC_PREP" postag_regexp="yes"/>
+            <token postag="D.*" postag_regexp="yes" min="0"/>
+            <token regexp="yes">tarda|tardes</token>
+        </antipattern>
+        <antipattern>
+            <token regexp="yes">tarda|tardes</token>
+            <token>més</token>
+        </antipattern>
         <pattern>
             <marker>
-            <token inflected="yes">tardar</token>
+                <token inflected="yes">tardar<exception>tard</exception></token>
             </marker>
             <token postag="D[IN].*" postag_regexp="yes" min="0"/>
             <token inflected="yes" regexp="yes">&unitats_temps;|&periodes_temps;|més</token>
@@ -3844,7 +3853,7 @@ Copyright (C) 2012 Jaume Ortolà i Font
         <disambig action="filterall"/>
     </rule>
     <rule id="deixar_verb" name="deixar verb">
-       <antipattern>
+        <antipattern>
             <token postag="SPS00|LOC_PREP|D.*" postag_regexp="yes"/>
             <token postag="NC.*" postag_regexp="yes"/>
         </antipattern>
@@ -7648,6 +7657,13 @@ Copyright (C) 2012 Jaume Ortolà i Font
             <token inflected="yes" regexp="yes">salvatge|feroç|ferotge</token>
         </pattern>
         <disambig action="filter" postag="N.*|.*_GN_.*"/>
+    </rule>
+    <rule id="donar_fe" name="donar fe">
+        <pattern>
+            <token postag="V.*" postag_regexp="yes" inflected="yes">donar</token>
+            <token postag="NCFS000">fe</token>
+        </pattern>
+        <disambig action="filterall"/>
     </rule>
     <rule id="fe" name="fe (verb balear)">
         <antipattern>
