@@ -2360,7 +2360,6 @@ donguin=donin
 duda=dubte
 dudes=dubtes
 dun=d'un|un|dos|on|don
-EEUU|eeuu=EUA|Estats Units
 electrolisi=electròlisi|electrolitzi
 electrolisis=electròlisis|electrolitzis
 embaucador=engalipador|entabanador|ensibornador|ensarronador

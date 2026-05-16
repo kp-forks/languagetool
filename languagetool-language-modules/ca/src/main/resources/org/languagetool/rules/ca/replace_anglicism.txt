@@ -508,3 +508,5 @@ shutdown=tancament administratiu
 NATO=OTAN
 forensic=forense|informe forense
 forensics=forenses|informes forenses
+rack=bastidor
+racks=bastidors

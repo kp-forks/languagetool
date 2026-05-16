@@ -1,5 +1,7 @@
 #Catalan multiwords file used for chunking
 #separatorRegExp=[\t;]
+Tara Selter;NPFSSP0
+Consorci AOC;NPMSO00
 Zaira Pérez;NPFSSP0
 Naby Dakhli;NPMSSP0
 Xavier Cuadras;NPMSSP0

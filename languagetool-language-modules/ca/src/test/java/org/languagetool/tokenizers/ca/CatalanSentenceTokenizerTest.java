@@ -101,6 +101,8 @@ public class CatalanSentenceTokenizerTest {
     testSplit("i és del vol. 3 de la col·lecció");
     testSplit("Els EE. UU. són un país.");
     testSplit("Els EE.UU. són un país.");
+    testSplit("Els ee. uu. són un país.");
+    testSplit("Els ee.uu. són un país.");
     testSplit("Me'n vaig als EE.UU. ", "Bon viatge.");
     testSplit("Garcia, Joan (coords.)");
     testSplit("fins al curs de 8è. ", "\"No es pot oblidar allò\"");
@@ -114,6 +116,7 @@ public class CatalanSentenceTokenizerTest {
     testSplit("Vam veure un documental sobre Warner Bros. Cartoons.");
     testSplit("Vam veure un documental sobre la Warner Bros. ", "Era boníssim.");
     testSplit("La Warner Bros. feia coses que m'agradaven molt.");
+    testSplit("Introduïu açí el vostre text. ", "o feu servir aquest texts com a a exemple per a alguns errades que LanguageTool hi pot detectat.");
     
     // Unknown abbreviations inside parentheses
     testSplit("(Impren. Disss)");

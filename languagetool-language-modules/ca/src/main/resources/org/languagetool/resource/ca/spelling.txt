@@ -3,6 +3,7 @@
 AIEA
 ALSA
 ANPE
+AOC
 APDCAT
 Aiguadolç
 Aldocumar
@@ -12,6 +13,7 @@ Aristip
 Arnaud
 Arquillué
 Artaud
+Asmodeu
 Basij
 Beauharnais
 Behçet
@@ -25,6 +27,7 @@ CTTI
 CTranslate
 CUDA
 Centcom
+Clemenceau
 Coliseum
 Compaq
 Corriere
@@ -77,6 +80,7 @@ Minnie
 Nakamoto
 Nauru
 Niebuhr
+OAC
 ONNX
 OpenCode
 Ostrom
@@ -86,6 +90,7 @@ Petruixka
 Philharmonie
 Queensferry
 Quine
+Quèops
 RBA
 Rayuela
 Rosselló-Pòrcel
@@ -276,6 +281,8 @@ comunot
 comunota
 comunotes
 comunots
+concedent
+concedents
 contorsion
 contorsiona
 contorsionada
@@ -403,6 +410,8 @@ criminalitzador
 criminalitzadora
 criminalitzadores
 criminalitzadors
+desacreditacions
+desacreditació
 desaprenentatge
 desaprenentatges
 desarmant
@@ -714,6 +723,8 @@ fibrogènesi
 fibrogènesis
 ficcionament
 ficcionaments
+fisioculturista
+fisioculturistes
 giga-electró-volt
 giga-electró-volts
 gigaelectronvolt
@@ -1638,6 +1649,8 @@ tocadet
 tocadeta
 tocadetes
 tocadets
+tom-tom
+tom-toms
 tripi
 tripis
 turboglobalitzacions

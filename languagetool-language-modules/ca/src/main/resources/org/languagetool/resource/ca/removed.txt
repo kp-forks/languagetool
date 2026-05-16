@@ -8,6 +8,9 @@ Absalò	Absalò	NPMSSP0
 Antigua	Antigua	NPCN000
 Antigüedad	Antigüedad	NPCN000
 Artemis	Artemi	NPMPSP0
+Asmodeus	Asmodeus	NPCN000
+Asmonea	Asmonea	NPFSSP0
+Asmonees	Asmonea	NPFPSP0
 Buca	Buca	NPCN000
 Catalan	Catalan	NPCN000
 Catalán	Catalán	NPCN000
@@ -42,6 +45,7 @@ Palau-Sator	Palau-Sator	NPCSG00
 Palau-Solità	Palau-Solità	NPCSG00
 Partido	Partido	NPCN000
 Pascual	Pascual	NPCN000
+Pekin	Pekin	NPCN000
 Relevant	Relevant	NPCN000
 Salon	Salon	NPCN000
 Sangre	Sangre	NPCN000

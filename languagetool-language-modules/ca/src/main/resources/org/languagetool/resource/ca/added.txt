@@ -7,6 +7,7 @@
 AIEA	AIEA	NPFSO00
 ALSA	ALSA	NPCNO00
 ANPE	ANPE	NPCNO00
+AOC	AOC	NPCSO00
 APDCAT	APDCAT	NPFSO00
 Aiguadolç	Aiguadolç	NPMSG00
 Aldocumar	Aldocumar	NPMSO00
@@ -16,6 +17,7 @@ Aristip	Aristip	NPMSSP0
 Arnaud	Arnaud	NPCNSP0
 Arquillué	Arquillué	NPCNSP0
 Artaud	Artaud	NPCNSP0
+Asmodeu	Asmodeu	NPMSSP0
 Basij	Basij	NPFSO00
 Beauharnais	Beauharnais	NPCNSP0
 Behçet	Behçet	NPCNSP0
@@ -29,6 +31,7 @@ CTTI	CTTI	NPMSO00
 CTranslate	CTranslate	NPCNO00
 CUDA	CUDA	NPCNO00
 Centcom	Centcom	NPMSO00
+Clemenceau	Clemenceau	NPCNSP0
 Coliseum	Coliseum	NPMSO00
 Compaq	Compaq	NPCNSP0
 Corriere	Corriere	NPMSO00
@@ -82,6 +85,7 @@ Minnie	Minnie	NPFSSP0
 Nakamoto	Nakamoto	NPCNSP0
 Nauru	Nauru	NPCSG00
 Niebuhr	Niebuhr	NPCNSP0
+OAC	OAC	NCFN000
 ONNX	ONNX	NPCNO00
 OpenCode	OpenCode	NPMSO00
 Ostrom	Ostrom	NPCNSP0
@@ -91,6 +95,7 @@ Petruixka	Petruixka	NPCNSP0
 Philharmonie	Philharmonie	NPFSO00
 Queensferry	Queensferry	NPCSG00
 Quine	Quine	NPCNSP0
+Quèops	Quèops	NPMSSP0
 RBA	RBA	NPCNO00
 Rayuela	Rayuela	NPFSO00
 Rosselló-Pòrcel	Rosselló-Pòrcel	NPCNSP0
@@ -307,6 +312,10 @@ comunot	comunot	AQ0MS0
 comunota	comunot	AQ0FS0
 comunotes	comunot	AQ0FP0
 comunots	comunot	AQ0MP0
+concedent	concedent	AQ0CS0
+concedent	concedent	NCCS000
+concedents	concedent	AQ0CP0
+concedents	concedent	NCCP000
 contorsion	contorsionar	VMIP1S0B
 contorsiona	contorsionar	VMIP3S00
 contorsiona	contorsionar	VMM02S00
@@ -482,6 +491,8 @@ criminalitzador	criminalitzador	AQ0MS0
 criminalitzadora	criminalitzador	AQ0FS0
 criminalitzadores	criminalitzador	AQ0FP0
 criminalitzadors	criminalitzador	AQ0MP0
+desacreditacions	desacreditació	NCFP000
+desacreditació	desacreditació	NCFS000
 desaprenentatge	desaprenentatge	NCMS000
 desaprenentatges	desaprenentatge	NCMP000
 desarmant	desarmant	AQ0CS0
@@ -890,6 +901,8 @@ fibrogènesi	fibrogènesi	NCFS000
 fibrogènesis	fibrogènesi	NCFP000
 ficcionament	ficcionament	NCMS000
 ficcionaments	ficcionament	NCMP000
+fisioculturista	fisioculturista	NCCS000
+fisioculturistes	fisioculturista	NCCP000
 giga-electró-volt	giga-electró-volt	NCMS000
 giga-electró-volts	giga-electró-volt	NCMP000
 gigaelectronvolt	gigaelectronvolt	NCMS000
@@ -2036,6 +2049,8 @@ tocadet	tocadet	AQ0MS0
 tocadeta	tocadet	AQ0FS0
 tocadetes	tocadet	AQ0FP0
 tocadets	tocadet	AQ0MP0
+tom-tom	tom-tom	NCMS000
+tom-toms	tom-tom	NCMP000
 tripi	tripi	NCMS000
 tripis	tripi	NCMP000
 turboglobalitzacions	turboglobalització	NCFP000

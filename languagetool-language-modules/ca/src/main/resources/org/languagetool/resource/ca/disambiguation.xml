@@ -15263,7 +15263,7 @@ Copyright (C) 2012 Jaume Ortolà i Font
         <pattern>
             <marker>
                 <and>
-                    <token postag="N.*" postag_regexp="yes" regexp="yes">demà|liderats?|oi|queda|formi|baixa|porto|troba|trobes|ara|esper|vau|he|deixa|deixes|sap|pren|allò|breu|sec|personal|fou|crec|davant|darrere|damunt|davall|sota|ve|tornés|seré|estic|som|sou|amples?|creix|fem|res|si|bé|perquè|però|dins|real|era|eres|dius?|fals<exception postag="_GN.*" postag_regexp="yes"/><exception case_sensitive="yes">Era</exception></token>
+                    <token postag="N.*" postag_regexp="yes" regexp="yes">liderats?|oi|queda|formi|baixa|porto|troba|trobes|ara|esper|vau|he|deixa|deixes|sap|pren|allò|breu|sec|personal|fou|crec|davant|darrere|damunt|davall|sota|ve|tornés|seré|estic|som|sou|amples?|creix|fem|res|si|bé|perquè|però|dins|real|era|eres|dius?|fals<exception postag="_GN.*" postag_regexp="yes"/><exception case_sensitive="yes">Era</exception></token>
                     <token postag="[AVRIPC].*" postag_regexp="yes"/>
                 </and>
             </marker>
@@ -20332,6 +20332,50 @@ Copyright (C) 2012 Jaume Ortolà i Font
         </rule>
     </rulegroup>
     <rulegroup id="NO_RELATIU" name="no hi ha estructura de relatiu">
+        <rule>
+            <pattern>
+                <token regexp="yes" inflected="yes">agafar|prendre</token>
+                <token regexp="yes">testimoni|relleu</token>
+                <marker>
+                    <token>de</token>
+                </marker>
+                <token>l</token>
+                <token>que</token>
+            </pattern>
+            <disambig action="add">
+                <wd pos="_no_relatiu"/>
+            </disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token regexp="yes" inflected="yes" skip="3">tenir|veure|trobar</token>
+                <token>sentit</token>
+                <marker>
+                    <token>en</token>
+                </marker>
+                <token>el</token>
+                <token>que</token>
+            </pattern>
+            <disambig action="add">
+                <wd pos="_no_relatiu"/>
+            </disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token regexp="yes" inflected="yes">tenir|veure|trobar|haver</token>
+                <token postag="RG|LOC_ADV" postag_regexp="yes" min="0" max="3"/>
+                <token>un</token>
+                <token>sentit</token>
+                <marker>
+                    <token>en</token>
+                </marker>
+                <token>el</token>
+                <token>que</token>
+            </pattern>
+            <disambig action="add">
+                <wd pos="_no_relatiu"/>
+            </disambig>
+        </rule>
         <rule>
             <pattern>
                 <token>interès</token>
