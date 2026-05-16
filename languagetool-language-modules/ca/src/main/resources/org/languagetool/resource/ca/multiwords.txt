@@ -1,5 +1,9 @@
 #Catalan multiwords file used for chunking
 #separatorRegExp=[\t;]
+a regna solta;LOC_ADV
+ultimate frisbee;NCMS000
+Richard Jordan Gatling;NPMSSP0
+Richard J. Gatling;NPMSSP0
 Tara Selter;NPFSSP0
 Consorci AOC;NPMSO00
 Zaira Pérez;NPFSSP0
