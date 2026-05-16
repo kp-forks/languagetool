@@ -485,7 +485,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
     <category id='FORMAL_SPEECH_PT_PT' name='🇵🇹 Linguagem Formal' type='register' tone_tags="formal">
 
 
-        <rule id='SER_CARO_ONEROSO_DISPENDIOSO' name="🤵 Ser 'caro' → oneroso/dispendioso" type='style' tone_tags='formal' tags='picky' default='temp_off'>
+        <rule id='SER_CARO_ONEROSO_DISPENDIOSO' name="🤵 Ser 'caro' → oneroso/dispendioso" type='style' tone_tags='formal' tags='picky'>
             <!-- ChatGPT 5 and new disambiguator for 2026+ -->
             <!-- It is a Portuguese European rule only because "cara(s)" is commonly used in Brazil to address people informally -->
 
