@@ -510,3 +510,7 @@ forensic=forense|informe forense
 forensics=forenses|informes forenses
 rack=bastidor
 racks=bastidors
+benchmark=índex de referència|test de referència
+benchmarks=índexs de referència|tests de referència
+benchmarking=anàlisi comparativa|proves de rendiment
+benchmarkings=anàlisis comparatives|proves de rendiment
