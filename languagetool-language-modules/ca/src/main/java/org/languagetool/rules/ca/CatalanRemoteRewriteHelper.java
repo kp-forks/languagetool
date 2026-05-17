@@ -187,7 +187,7 @@ public class CatalanRemoteRewriteHelper {
       "amb la frase, sense comentaris ni puntuació extra.",
     "CA_SPLIT_LONG_SENTENCE", "Aquesta frase és massa llarga. Divideix-la fent els mínims canvis possibles. " +
       "Respon només amb la frase dividida.",
-        "EN_NO_INFINITIU_CAUSAL", "Reescriu la frase canviant la construcció 'al no + infinitiu' o " +
+        "EN_NO_INFINITIU_CAUSAL_REMOTE", "Reescriu la frase canviant la construcció 'al no + infinitiu' o " +
       "'en no + infinitiu' per 'com que...' o 'perquè...', fent els mínims canvis possibles. Respon amb la frase reescrita " +
       "sense comentaris extra.",
   "CA_REMOTE_ESCOLTAR_SENTIR", "Reescriu aquesta frase canviant el verb 'escoltar' pel verb 'sentir', si està mal usat, és a dir, si no vol dir 'parar atenció, atendre o obeir'." +
@@ -236,9 +236,13 @@ public class CatalanRemoteRewriteHelper {
       Map.entry("Vaig escoltar que deien coses inversemblants.","Vaig sentir que deien coses inversemblants."),
       Map.entry("Vaig escoltar atentament les seves explicacions.","Vaig escoltar atentament les seves explicacions.")
       ),
-      "EN_NO_INFINITIU_CAUSAL", Map.ofEntries(
-        Map.entry("En no tenir efectes pràctics, vam decidir deixar-ho córrer.", "Com que no tenia efectes pràctics, vam decidir deixar-ho córrer."),
-        Map.entry("Al no tenir efectes pràctics, se suspèn la sessió.", "Com que no té efectes pràctics, se suspèn la sessió.")
+      "EN_NO_INFINITIU_CAUSAL_REMOTE", Map.ofEntries(
+      Map.entry("En no poder venir, vam decidir deixar-ho córrer.", "Com que no podíem venir, vam decidir deixar-ho córrer."),
+      Map.entry("Al no poder venir, vam decidir deixar-ho córrer.", "Com que no podíem venir, vam decidir deixar-ho córrer."),
+      Map.entry("En no tenir efectes pràctics, vam decidir deixar-ho córrer.", "Com que no tenia efectes pràctics, vam decidir deixar-ho córrer."),
+      Map.entry("Al no venir fonamentades, tothom s'estranya.", "Com que no venen fonamentades, tothom s'estranya."),
+      Map.entry("Ho vaig deixar córrer al no disposar d'informació.", "Ho vaig deixar córrer perquè no disposava d'informació."),
+      Map.entry("En no haver descobert el resultat, vam quedar decebuts.", "Com que no havíem descobert el resultat, vam quedar decebuts.")
     )
 
   );

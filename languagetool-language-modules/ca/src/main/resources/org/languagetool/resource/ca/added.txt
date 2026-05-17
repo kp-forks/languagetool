@@ -39,6 +39,7 @@ Cospedal	Cospedal	NPCNSP0
 DevOps	DevOps	NCMN000
 Dimona	Dimona	NPCSG00
 Doctorow	Doctorow	NPCNSP0
+EuroLLM	EuroLLM	NPMNO00
 Eurocup	Eurocup	NPFSO00
 Eurocups	Eurocup	NPFPO00
 FAMPA	FAMPA	NPFSO00
@@ -70,6 +71,7 @@ Jaeger	Jaeger	NPCNSP0
 Jäger	Jäger	NPCNSP0
 Kalman	Kalman	NPCNSP0
 Kharg	Kharg	NPCSG00
+LLaMA	LLaMA	NPMNO00
 LaGuardia	LaGuardia	NPCNG00
 Larkin	Larkin	NPCNSP0
 Leavitt	Leavitt	NPCNSP0
@@ -90,6 +92,7 @@ Nauru	Nauru	NPCSG00
 Niebuhr	Niebuhr	NPCNSP0
 OAC	OAC	NCFN000
 ONNX	ONNX	NPCNO00
+OmniASR	OmniASR	NPCNO00
 OpenCode	OpenCode	NPMSO00
 Ostrom	Ostrom	NPCNSP0
 PAI	PAI	NCMN000

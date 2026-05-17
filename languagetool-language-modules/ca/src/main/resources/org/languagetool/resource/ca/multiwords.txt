@@ -1,5 +1,6 @@
 #Catalan multiwords file used for chunking
 #separatorRegExp=[\t;]
+hemoglobina glicosilada;NCFS000
 a regna solta;LOC_ADV
 ultimate frisbee;NCMS000
 Richard Jordan Gatling;NPMSSP0

@@ -2436,7 +2436,7 @@ Comic Sans
 Calibri
 Arial
 Verdana
-Helvetica
+#Helvetica
 Helvetica Neue
 John Travolta
 WandaVision
